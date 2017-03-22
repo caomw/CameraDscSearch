@@ -1,0 +1,12 @@
+#ifndef DSCPLUGIN_MEANCH_GLOBAL_H
+#define DSCPLUGIN_MEANCH_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined( DSCPLUGIN_MEANCH_LIBRARY)
+#  define DSCPLUGIN_MEANCH_EXPORT Q_DECL_EXPORT
+#else
+#  define DSCPLUGIN_MEANCH_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif
